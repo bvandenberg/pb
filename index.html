@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Digital Souvenirs Photobooth</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-2.1.4.min.js" type="application/javascript"></script>
+    <script src="js/main.js" type="application/javascript"></script>
+</head>
+	<body>
+		<div id="background">
+		
+			
+		
+            <div id="maincontent">
+			
+				<div id="photoarea">	
+                    <canvas id="captured-still" width="640" height="480"></canvas>
+                    <video id="live-view"></video>
+                </div>
+                
+                <div id="controlbar"> 
+                    <div id="countdown">5</div>
+                    <div id = "controls">
+                        <button id="photoBtn" class="myButton" type="button">FOTO</button>
+                        <button id="retakeBtn" class="myButton" type="button">OPNIEUW</button>
+                        <button id="saveBtn" class="myButton" type="button">KLAAR</button>
+                    </div>                                        
+                </div>
+            </div>			
+		</div>
+		
+		<div id="uploading">
+			<div id="saving">Fake saving screen...</div>
+		</div>
+	</body>
+</html>

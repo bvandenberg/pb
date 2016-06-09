@@ -1,0 +1,14 @@
+{
+  "name": "Photobooth",
+  "description": "Kiss the Frog Photobooth",
+  "version": "2",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+"permissions" : [ "videoCapture", "audioCapture" ],
+  "kiosk_enabled" : true
+}
